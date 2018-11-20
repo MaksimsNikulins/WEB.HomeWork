@@ -1,0 +1,279 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.First-Block {
+    width: 100%;
+  
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.First-Block-Left {
+    height: 30px;
+    width: 60px;
+    float: left;
+    /* background: grey; */
+    width: 15%;
+    
+}
+
+.First-Block-Right {
+    text-align: right;
+    height: 30px;
+    width: 60px;
+    float: left;
+    /* background: red; */
+    width: 85%;
+}
+
+a[href="index.html"], 
+[href="SecondPage.html"],
+[href="ThirdPage.html"],
+[href="ForthPage.html"],
+[href="FifthPage.html"]
+{
+    color: brown;
+    font-size: 20px;
+}   
+.first-line {
+    margin-top: 10px;
+}
+
+#carouselExampleIndicators {
+
+    width: 100%;
+    height: 100%;
+}
+.Second-Block {
+    width: 40%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px; 
+    border: solid 1px black;
+   
+}
+
+.Block3 {
+    
+    /* width: 100%; */
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.Third-Block-First-Article {
+    /* background: grey; */
+    text-align: center;
+    width: 30%;
+    float: left; 
+    margin-right: 10px;
+    margin-left: 10px;
+    height: auto;
+    padding: 5px; 
+    border: solid 1px black;
+    
+}
+
+.Third-Block-First-Article-FotoCat1 {
+    width: 30%;
+    height: 30%;
+    margin: 5px 5px 5px 5px;
+    float: left;  
+    padding: 5px; 
+    border: solid 1px black; 
+}
+
+.Third-Block-First-Article-FotoCat1-Paragraf {
+    /* background: yellow; */
+    width: 60%;
+    height: 30%;
+    margin: 5px 5px 5px 5px;
+    float: left; 
+    
+}
+
+.Third-Block-Second-Article {
+    /* background: red; */
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    height: auto;
+    padding: 5px; 
+    border: solid 1px black;
+    
+
+}
+
+.Third-Block-First-Article-FotoCat2 {
+    width: 30%;
+    height: 30%;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    padding: 5px; 
+    border: solid 1px black;
+
+}
+
+.Third-Block-First-Article-FotoCat2-Paragraf {
+    /* background: yellow; */
+    width: 60%;
+    height: 30%;
+    margin: 5px 5px 5px 5px;
+    float: left; 
+   
+    
+}
+
+.Third-Block-Third-Article {
+    /* background:green; */
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    height: auto;
+    padding: 5px; 
+    border: solid 1px black;
+}
+
+.Third-Block-First-Article-FotoCat3 {
+    width: 30%;
+    height: 30%;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    padding: 5px; 
+    border: solid 1px black;
+}
+
+.Third-Block-First-Article-FotoCat3-Paragraf {
+    /* background: yellow; */
+    
+    width: 60%;
+    height: 30%;
+    margin: 5px 5px 5px 5px;
+    float: left; 
+    
+}
+
+.Forth-Block {
+    /* background: blue; */
+    clear: both;
+}
+
+.First-Block-Second-Page  {
+
+     width: 100%;
+     height: 90px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.First-Block-Second-Page-FotoCat1 {
+    width: 10%;
+    height: 100%;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    padding: 5px; 
+    border: solid 1px black;
+}
+
+.Article-One {
+    margin-left: 10px;
+}
+
+
+.Second-Block-Second-Page {
+    width: 100%;
+     height: 90px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.Second-Block-Second-Page-FotoCat2 {
+    width: 10%;
+    height: 100%;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    padding: 5px; 
+    border: solid 1px black;
+}
+
+.Article-Two {
+    margin-left: 10px;
+}
+
+.Third-Block-Second-Page {
+    width: 100%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Third-Block-Second-Page-FotoCat3 {
+    width: 10%;
+    height: 100%;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    padding: 5px; 
+    border: solid 1px black;
+}
+
+.Article-Three {
+    margin-left: 10px;
+}
+
+.Pages-Numbers {
+text-align: right;
+
+}
+
+.col-1 {
+    
+    width: 20%;
+   height: 480px;
+    float: left;
+    
+
+    }
+
+.col-2 {
+    width: 100%;
+    height: 480px;
+   
+    
+  
+}
+  
+.overlay{
+	display: none;
+	height: auto;
+	left: 15%;
+	position: absolute;
+	top: 30%;
+	width: auto;
+	z-index: 1;
+	}
+
+.overlay .overlay_container{
+	display: table-cell;
+	vertical-align: middle;
+	}
+
+.overlay_container img{
+	background-color: green;
+	padding: 10px;
+	
+	}
+.overlay:target {
+	display: table;
+	}
+
+
+  

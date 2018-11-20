@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="FrontPage.css">
+</head>
+<body>
+    <div class="First-Block">
+        <div class="First-Block-Left">
+            <img  src="kittyCatHotel.png" alt="Logo" height="30" width="60">
+        </div>
+        
+        <div class="First-Block-Right">
+            <a href="index.html">Home</a>     
+            <a href="SecondPage.html">Articles</a>
+            <a href="ThirdPage.html">Chat</a>
+            <a href="ForthPage.html">Register</a>
+            <a href="FifthPage.html">About us</a>  
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <p>
+        Home ><a href="ForthPage.html">Register</a>
+    </p>
+    <h1>Register</h1>
+<form action="auth.php" method="POST">
+    <div>
+        <input type="text" name="firstname" id="UserFirstName" placeholder="Your first name">
+    </div>
+
+    <br>
+
+    <div>
+        <input type="text" name="lastname" id="UserLastName" placeholder="Your last name">    
+    </div>
+
+    <br>
+
+    <div>
+        <input type="text" name="e-mail" id="UserE-Mail" placeholder="Your e-mail">  
+    </div>
+
+    <br>
+    
+    <div>
+        <input type="text" name="password" id="UserPassword" placeholder="Password">
+    </div>
+
+    <br>
+
+    <div>
+        <input type="text" name="retypepassword" id="RetypePassword" placeholder="Retype Password">
+    </div>
+            
+    <br>
+    <div>
+            
+         <select>
+         <option value="Latvia">Latvia</option>
+         <option value="Lithuenia">Lithuenia</option>
+         <option value="Estonia">Estonia</option>
+        </select>
+    </div>
+    
+    <br>
+
+    <div>
+        
+        <input type="file" name="file" placeholder="My foto">
+    </div>
+
+    <br>
+
+            
+    <div>  
+        <label for="agree-with-terms">Agree with terms and conditions</label>
+        <input type="checkbox" id="agree-with-terms">
+    </div>
+            
+    <br>
+            <div>
+                <input type="reset">
+                <input type="submit" value="Register">
+            </div>   
+</form>
+      
+            
+
+    <hr>
+    <p>
+        (c) All rights reserved
+    </p>
+
+    
+
+    
+</body>
+</html>
